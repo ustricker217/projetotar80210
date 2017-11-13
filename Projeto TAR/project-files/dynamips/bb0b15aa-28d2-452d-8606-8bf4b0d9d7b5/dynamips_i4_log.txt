@@ -1,0 +1,44 @@
+Oct 27 17:58:22.849 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Oct 27 17:58:22.849 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50669.
+Oct 27 17:58:23.350 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 27 17:58:23.350 HYPERVISOR: exec_cmd: hypervisor working_dir F:\anno 3\semestre 1\Topicos Avancados de Redes\projeto\Projeto TAR\project-files\dynamips 
+Oct 27 17:58:23.350 GENERAL: working_dir=F:\anno 3\semestre 1\Topicos Avancados de Redes\projeto\Projeto TAR\project-files\dynamips
+Oct 27 17:58:23.365 HYPERVISOR: exec_cmd: hypervisor working_dir F:\anno 3\semestre 1\Topicos Avancados de Redes\projeto\Projeto TAR\project-files\dynamips\bb0b15aa-28d2-452d-8606-8bf4b0d9d7b5 
+Oct 27 17:58:23.365 GENERAL: working_dir=F:\anno 3\semestre 1\Topicos Avancados de Redes\projeto\Projeto TAR\project-files\dynamips\bb0b15aa-28d2-452d-8606-8bf4b0d9d7b5
+Oct 27 17:58:23.365 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Oct 27 17:58:23.365 VM: VM R4 created.
+Oct 27 17:58:23.381 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 2003 
+Oct 27 17:58:23.381 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Oct 27 17:58:23.381 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.396 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Oct 27 17:58:23.396 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Oct 27 17:58:23.412 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Oct 27 17:58:23.412 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.412 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60189224 
+Oct 27 17:58:23.428 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/salomondeep/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Oct 27 17:58:23.428 HYPERVISOR: exec_cmd: c7200 set_mac_addr R4 ca04.1aa4.0000 
+Oct 27 17:58:23.428 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Oct 27 17:58:23.443 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Oct 27 17:58:23.443 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.459 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-GE 
+Oct 27 17:58:23.459 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.459 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-GE 
+Oct 27 17:58:23.474 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.474 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-GE 
+Oct 27 17:58:23.474 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.490 HYPERVISOR: exec_cmd: vm slot_add_binding R4 4 0 PA-GE 
+Oct 27 17:58:23.490 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.490 HYPERVISOR: exec_cmd: vm slot_add_binding R4 5 0 PA-GE 
+Oct 27 17:58:23.506 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:23.506 HYPERVISOR: exec_cmd: vm slot_add_binding R4 6 0 PA-GE 
+Oct 27 17:58:23.521 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Oct 27 17:58:23.521 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg F:/anno 3/semestre 1/Topicos Avancados de Redes/projeto/Projeto TAR/project-files/dynamips/bb0b15aa-28d2-452d-8606-8bf4b0d9d7b5/configs/i4_private-config.cfg 
+Oct 27 17:58:26.348 HYPERVISOR: exec_cmd: nio create_udp udp-ab1cb850-4e15-4267-aa7a-5f9670f0db8d 10001 127.0.0.1 10000 
+Oct 27 17:58:26.348 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-ab1cb850-4e15-4267-aa7a-5f9670f0db8d 
+Oct 27 17:58:26.348 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 17:58:27.692 HYPERVISOR: exec_cmd: nio create_udp udp-fcd72832-7d9b-442f-952c-0c729602ca9c 10008 127.0.0.1 10009 
+Oct 27 17:58:27.692 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-fcd72832-7d9b-442f-952c-0c729602ca9c 
+Oct 27 17:58:27.708 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 27 18:10:05.887 HYPERVISOR: Stopped.
+Oct 27 18:10:05.888 VM: VM R4 destroyed.
+Oct 27 18:10:05.923 GENERAL: reset done.

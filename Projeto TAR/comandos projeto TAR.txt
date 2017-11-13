@@ -1,0 +1,22 @@
+﻿hostname Router-[X] -> X é o numero do routerX 
+
+banner motd #
+--------------
+Router [X] console. Authorized staff only!
+--------------#
+
+line console 0
+	password tar[X] -> X é o numero do router
+	login 
+	logging synchronous
+	exit
+
+enable secret tarcisco[X] -> X é o numero do router
+
+line vty 0 ?
+	password tarciscovty[X] -> X é o numero do router
+	login
+
+service password-encryption
+
+copy running-config start
